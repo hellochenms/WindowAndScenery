@@ -5,7 +5,7 @@
 
 #### 示例包含
 
-![](/Users/hellochenms/workspace/WindowAndScenery/doc/image/1.jpg)
+![](doc/image/1.jpg)
 
 
 
