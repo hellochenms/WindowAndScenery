@@ -33,7 +33,15 @@ class ViewController: UIViewController {
                ("文字窗", A1TextViewController.self),
                ("渐变景", A1GradientViewController.self),
                ("文字窗渐变景", A1TextGradientViewController.self),
-               ("半透明渐变窗", A1TableViewController.self)])]
+               ("半透明渐变窗", A1TableViewController.self)]),
+             ("第二篇",
+               [("窗动", A2MoveViewController.self),
+                ("窗动（pan 手势）", A2PanViewController.self),
+                ("窗变（圆）", A2ChangeViewController.self),
+                ("窗变（环形进度条）", A2ProgressViewController.self),
+                ("多窗变（百叶窗）", A2ShutterViewController.self),
+                ("多窗动（Loading）", A2LoadingViewController.self),
+                ("粒子窗", A2HeartViewController.self)])]
         
         return datas as! [(String, [(String, UIViewController.Type)])]
     }()

@@ -18,10 +18,22 @@
 		997893042473B48B001BBAC8 /* A1GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997893032473B48B001BBAC8 /* A1GradientViewController.swift */; };
 		997893062473B49A001BBAC8 /* A1TextGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997893052473B49A001BBAC8 /* A1TextGradientViewController.swift */; };
 		997893082473B4C1001BBAC8 /* A1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997893072473B4C1001BBAC8 /* A1TableViewController.swift */; };
-		997893202473C1A1001BBAC8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9978931F2473C1A1001BBAC8 /* CircleView.swift */; };
-		997893222473CB0A001BBAC8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997893212473CB0A001BBAC8 /* GradientView.swift */; };
-		997893242473CE1D001BBAC8 /* ShiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997893232473CE1D001BBAC8 /* ShiningView.swift */; };
-		997893262473D1FA001BBAC8 /* Color+M2Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997893252473D1FA001BBAC8 /* Color+M2Color.swift */; };
+		EF91299C248CC24B00A046D1 /* A2ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912995248CC24B00A046D1 /* A2ProgressViewController.swift */; };
+		EF91299D248CC24B00A046D1 /* A2ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912996248CC24B00A046D1 /* A2ChangeViewController.swift */; };
+		EF91299E248CC24B00A046D1 /* A2PanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912997248CC24B00A046D1 /* A2PanViewController.swift */; };
+		EF91299F248CC24B00A046D1 /* A2LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912998248CC24B00A046D1 /* A2LoadingViewController.swift */; };
+		EF9129A0248CC24B00A046D1 /* A2MoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912999248CC24B00A046D1 /* A2MoveViewController.swift */; };
+		EF9129A1248CC24B00A046D1 /* A2HeartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91299A248CC24B00A046D1 /* A2HeartViewController.swift */; };
+		EF9129A2248CC24B00A046D1 /* A2ShutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91299B248CC24B00A046D1 /* A2ShutterViewController.swift */; };
+		EF9129AC248CC26300A046D1 /* WeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129A3248CC26200A046D1 /* WeakProxy.swift */; };
+		EF9129AD248CC26300A046D1 /* EmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129A4248CC26200A046D1 /* EmitterView.swift */; };
+		EF9129AE248CC26300A046D1 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129A5248CC26200A046D1 /* RingView.swift */; };
+		EF9129AF248CC26300A046D1 /* Color+M2Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129A6248CC26200A046D1 /* Color+M2Color.swift */; };
+		EF9129B0248CC26300A046D1 /* TriangleLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129A7248CC26200A046D1 /* TriangleLoadingView.swift */; };
+		EF9129B1248CC26300A046D1 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129A8248CC26200A046D1 /* CircleView.swift */; };
+		EF9129B2248CC26300A046D1 /* ShutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129A9248CC26200A046D1 /* ShutterView.swift */; };
+		EF9129B3248CC26300A046D1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129AA248CC26200A046D1 /* GradientView.swift */; };
+		EF9129B4248CC26300A046D1 /* ShiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129AB248CC26300A046D1 /* ShiningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +50,22 @@
 		997893032473B48B001BBAC8 /* A1GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1GradientViewController.swift; sourceTree = "<group>"; };
 		997893052473B49A001BBAC8 /* A1TextGradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1TextGradientViewController.swift; sourceTree = "<group>"; };
 		997893072473B4C1001BBAC8 /* A1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1TableViewController.swift; sourceTree = "<group>"; };
-		9978931F2473C1A1001BBAC8 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		997893212473CB0A001BBAC8 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		997893232473CE1D001BBAC8 /* ShiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiningView.swift; sourceTree = "<group>"; };
-		997893252473D1FA001BBAC8 /* Color+M2Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+M2Color.swift"; sourceTree = "<group>"; };
+		EF912995248CC24B00A046D1 /* A2ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2ProgressViewController.swift; sourceTree = "<group>"; };
+		EF912996248CC24B00A046D1 /* A2ChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2ChangeViewController.swift; sourceTree = "<group>"; };
+		EF912997248CC24B00A046D1 /* A2PanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2PanViewController.swift; sourceTree = "<group>"; };
+		EF912998248CC24B00A046D1 /* A2LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2LoadingViewController.swift; sourceTree = "<group>"; };
+		EF912999248CC24B00A046D1 /* A2MoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2MoveViewController.swift; sourceTree = "<group>"; };
+		EF91299A248CC24B00A046D1 /* A2HeartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2HeartViewController.swift; sourceTree = "<group>"; };
+		EF91299B248CC24B00A046D1 /* A2ShutterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2ShutterViewController.swift; sourceTree = "<group>"; };
+		EF9129A3248CC26200A046D1 /* WeakProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakProxy.swift; sourceTree = "<group>"; };
+		EF9129A4248CC26200A046D1 /* EmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterView.swift; sourceTree = "<group>"; };
+		EF9129A5248CC26200A046D1 /* RingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		EF9129A6248CC26200A046D1 /* Color+M2Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+M2Color.swift"; sourceTree = "<group>"; };
+		EF9129A7248CC26200A046D1 /* TriangleLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLoadingView.swift; sourceTree = "<group>"; };
+		EF9129A8248CC26200A046D1 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		EF9129A9248CC26200A046D1 /* ShutterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShutterView.swift; sourceTree = "<group>"; };
+		EF9129AA248CC26200A046D1 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		EF9129AB248CC26300A046D1 /* ShiningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,7 @@
 				997892E32473B141001BBAC8 /* AppDelegate.swift */,
 				997892F72473B19F001BBAC8 /* ViewController.swift */,
 				997892FB2473B2C2001BBAC8 /* Article1 */,
+				EF912994248CC24B00A046D1 /* Article2 */,
 				997892FA2473B2C2001BBAC8 /* Common */,
 				997892E92473B141001BBAC8 /* Main.storyboard */,
 				997892EC2473B144001BBAC8 /* Assets.xcassets */,
@@ -89,10 +114,15 @@
 		997892FA2473B2C2001BBAC8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				9978931F2473C1A1001BBAC8 /* CircleView.swift */,
-				997893212473CB0A001BBAC8 /* GradientView.swift */,
-				997893232473CE1D001BBAC8 /* ShiningView.swift */,
-				997893252473D1FA001BBAC8 /* Color+M2Color.swift */,
+				EF9129A8248CC26200A046D1 /* CircleView.swift */,
+				EF9129A6248CC26200A046D1 /* Color+M2Color.swift */,
+				EF9129A4248CC26200A046D1 /* EmitterView.swift */,
+				EF9129AA248CC26200A046D1 /* GradientView.swift */,
+				EF9129A5248CC26200A046D1 /* RingView.swift */,
+				EF9129AB248CC26300A046D1 /* ShiningView.swift */,
+				EF9129A9248CC26200A046D1 /* ShutterView.swift */,
+				EF9129A7248CC26200A046D1 /* TriangleLoadingView.swift */,
+				EF9129A3248CC26200A046D1 /* WeakProxy.swift */,
 			);
 			name = Common;
 			path = Sources/Common;
@@ -110,6 +140,21 @@
 			);
 			name = Article1;
 			path = Sources/Article1;
+			sourceTree = "<group>";
+		};
+		EF912994248CC24B00A046D1 /* Article2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF912999248CC24B00A046D1 /* A2MoveViewController.swift */,
+				EF912997248CC24B00A046D1 /* A2PanViewController.swift */,
+				EF912996248CC24B00A046D1 /* A2ChangeViewController.swift */,
+				EF912995248CC24B00A046D1 /* A2ProgressViewController.swift */,
+				EF91299B248CC24B00A046D1 /* A2ShutterViewController.swift */,
+				EF912998248CC24B00A046D1 /* A2LoadingViewController.swift */,
+				EF91299A248CC24B00A046D1 /* A2HeartViewController.swift */,
+			);
+			name = Article2;
+			path = Sources/Article2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,18 +228,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				997893222473CB0A001BBAC8 /* GradientView.swift in Sources */,
-				997893202473C1A1001BBAC8 /* CircleView.swift in Sources */,
+				EF9129A0248CC24B00A046D1 /* A2MoveViewController.swift in Sources */,
+				EF9129B3248CC26300A046D1 /* GradientView.swift in Sources */,
 				997893042473B48B001BBAC8 /* A1GradientViewController.swift in Sources */,
+				EF9129AD248CC26300A046D1 /* EmitterView.swift in Sources */,
+				EF91299C248CC24B00A046D1 /* A2ProgressViewController.swift in Sources */,
 				997893062473B49A001BBAC8 /* A1TextGradientViewController.swift in Sources */,
-				997893262473D1FA001BBAC8 /* Color+M2Color.swift in Sources */,
+				EF9129AC248CC26300A046D1 /* WeakProxy.swift in Sources */,
+				EF91299E248CC24B00A046D1 /* A2PanViewController.swift in Sources */,
+				EF9129B0248CC26300A046D1 /* TriangleLoadingView.swift in Sources */,
 				997892FE2473B37D001BBAC8 /* A1CircleViewController.swift in Sources */,
+				EF91299F248CC24B00A046D1 /* A2LoadingViewController.swift in Sources */,
 				997893002473B3B8001BBAC8 /* A1Circle2ViewController.swift in Sources */,
-				997893242473CE1D001BBAC8 /* ShiningView.swift in Sources */,
+				EF9129A2248CC24B00A046D1 /* A2ShutterViewController.swift in Sources */,
+				EF9129B2248CC26300A046D1 /* ShutterView.swift in Sources */,
+				EF9129B1248CC26300A046D1 /* CircleView.swift in Sources */,
 				997893022473B43C001BBAC8 /* A1TextViewController.swift in Sources */,
+				EF9129AF248CC26300A046D1 /* Color+M2Color.swift in Sources */,
+				EF9129AE248CC26300A046D1 /* RingView.swift in Sources */,
 				997892F82473B19F001BBAC8 /* ViewController.swift in Sources */,
+				EF9129A1248CC24B00A046D1 /* A2HeartViewController.swift in Sources */,
 				997892E42473B141001BBAC8 /* AppDelegate.swift in Sources */,
 				997893082473B4C1001BBAC8 /* A1TableViewController.swift in Sources */,
+				EF91299D248CC24B00A046D1 /* A2ChangeViewController.swift in Sources */,
+				EF9129B4248CC26300A046D1 /* ShiningView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,8 +396,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LD9JLNUXTG;
 				INFOPLIST_FILE = WindowAndScenery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -359,8 +416,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LD9JLNUXTG;
 				INFOPLIST_FILE = WindowAndScenery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

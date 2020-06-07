@@ -8,19 +8,19 @@
 
 import UIKit
 
-// 渐变 View
 class GradientView: UIView {
     // MARK:  Public
     var gradientLayer: CAGradientLayer {
         return (layer as! CAGradientLayer)
     }
     
-    // 语法糖，其实已经放出了 gradientLayer，外部可以直接设置 gradientLayer 的属性
+    // 只是语法糖，外部可以取 gradientLayer 自己设置
     var locations: [Double] = [] {
         didSet {
             (layer as! CAGradientLayer).locations = locations.map { NSNumber(floatLiteral: $0) }
         }
     }
+    
     var colors: [UIColor]? {
         didSet {
             guard let colors = colors else { return }
