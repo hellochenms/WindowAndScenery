@@ -11,5 +11,6 @@
 
 
 #### 传送门
+- SegmentFault：[iOS 动画 - 窗景篇（一）](https://segmentfault.com/a/1190000022833151)
 - 简书： [iOS 动画 - 窗景篇（一）](https://www.jianshu.com/p/9ee143ba9d87)
 
