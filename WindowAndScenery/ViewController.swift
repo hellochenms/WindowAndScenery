@@ -41,7 +41,11 @@ class ViewController: UIViewController {
                 ("窗变（环形进度条）", A2ProgressViewController.self),
                 ("多窗变（百叶窗）", A2ShutterViewController.self),
                 ("多窗动（Loading）", A2LoadingViewController.self),
-                ("粒子窗", A2HeartViewController.self)])]
+                ("粒子窗", A2HeartViewController.self)]),
+             ("第三篇",
+              [("黑白彩色拼接", A3SceneryViewController.self),
+               ("波浪拼接", A3WaveViewController.self),
+               ("双波浪", A3DoubleViewController.self)])]
         
         return datas as! [(String, [(String, UIViewController.Type)])]
     }()

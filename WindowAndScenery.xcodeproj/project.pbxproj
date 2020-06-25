@@ -34,6 +34,12 @@
 		EF9129B2248CC26300A046D1 /* ShutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129A9248CC26200A046D1 /* ShutterView.swift */; };
 		EF9129B3248CC26300A046D1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129AA248CC26200A046D1 /* GradientView.swift */; };
 		EF9129B4248CC26300A046D1 /* ShiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129AB248CC26300A046D1 /* ShiningView.swift */; };
+		EF9129C024A4BC7300A046D1 /* A3DoubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129BD24A4BC7200A046D1 /* A3DoubleViewController.swift */; };
+		EF9129C124A4BC7300A046D1 /* A3SceneryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129BE24A4BC7200A046D1 /* A3SceneryViewController.swift */; };
+		EF9129C224A4BC7300A046D1 /* A3WaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129BF24A4BC7300A046D1 /* A3WaveViewController.swift */; };
+		EF9129C524A4BC8700A046D1 /* HalfCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129C324A4BC8700A046D1 /* HalfCircleView.swift */; };
+		EF9129C624A4BC8700A046D1 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129C424A4BC8700A046D1 /* WaveView.swift */; };
+		EF9129C824A4BCE600A046D1 /* UIImage+M2Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9129C724A4BCE600A046D1 /* UIImage+M2Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +72,12 @@
 		EF9129A9248CC26200A046D1 /* ShutterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShutterView.swift; sourceTree = "<group>"; };
 		EF9129AA248CC26200A046D1 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		EF9129AB248CC26300A046D1 /* ShiningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiningView.swift; sourceTree = "<group>"; };
+		EF9129BD24A4BC7200A046D1 /* A3DoubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A3DoubleViewController.swift; sourceTree = "<group>"; };
+		EF9129BE24A4BC7200A046D1 /* A3SceneryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A3SceneryViewController.swift; sourceTree = "<group>"; };
+		EF9129BF24A4BC7300A046D1 /* A3WaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A3WaveViewController.swift; sourceTree = "<group>"; };
+		EF9129C324A4BC8700A046D1 /* HalfCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfCircleView.swift; sourceTree = "<group>"; };
+		EF9129C424A4BC8700A046D1 /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		EF9129C724A4BCE600A046D1 /* UIImage+M2Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+M2Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,7 @@
 				997892F72473B19F001BBAC8 /* ViewController.swift */,
 				997892FB2473B2C2001BBAC8 /* Article1 */,
 				EF912994248CC24B00A046D1 /* Article2 */,
+				EF9129BC24A4BC5400A046D1 /* Article3 */,
 				997892FA2473B2C2001BBAC8 /* Common */,
 				997892E92473B141001BBAC8 /* Main.storyboard */,
 				997892EC2473B144001BBAC8 /* Assets.xcassets */,
@@ -123,6 +136,9 @@
 				EF9129A9248CC26200A046D1 /* ShutterView.swift */,
 				EF9129A7248CC26200A046D1 /* TriangleLoadingView.swift */,
 				EF9129A3248CC26200A046D1 /* WeakProxy.swift */,
+				EF9129C724A4BCE600A046D1 /* UIImage+M2Color.swift */,
+				EF9129C324A4BC8700A046D1 /* HalfCircleView.swift */,
+				EF9129C424A4BC8700A046D1 /* WaveView.swift */,
 			);
 			name = Common;
 			path = Sources/Common;
@@ -155,6 +171,17 @@
 			);
 			name = Article2;
 			path = Sources/Article2;
+			sourceTree = "<group>";
+		};
+		EF9129BC24A4BC5400A046D1 /* Article3 */ = {
+			isa = PBXGroup;
+			children = (
+				EF9129BE24A4BC7200A046D1 /* A3SceneryViewController.swift */,
+				EF9129BF24A4BC7300A046D1 /* A3WaveViewController.swift */,
+				EF9129BD24A4BC7200A046D1 /* A3DoubleViewController.swift */,
+			);
+			name = Article3;
+			path = Sources/Article3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,20 +265,26 @@
 				EF91299E248CC24B00A046D1 /* A2PanViewController.swift in Sources */,
 				EF9129B0248CC26300A046D1 /* TriangleLoadingView.swift in Sources */,
 				997892FE2473B37D001BBAC8 /* A1CircleViewController.swift in Sources */,
+				EF9129C124A4BC7300A046D1 /* A3SceneryViewController.swift in Sources */,
 				EF91299F248CC24B00A046D1 /* A2LoadingViewController.swift in Sources */,
+				EF9129C824A4BCE600A046D1 /* UIImage+M2Color.swift in Sources */,
 				997893002473B3B8001BBAC8 /* A1Circle2ViewController.swift in Sources */,
 				EF9129A2248CC24B00A046D1 /* A2ShutterViewController.swift in Sources */,
 				EF9129B2248CC26300A046D1 /* ShutterView.swift in Sources */,
+				EF9129C624A4BC8700A046D1 /* WaveView.swift in Sources */,
 				EF9129B1248CC26300A046D1 /* CircleView.swift in Sources */,
 				997893022473B43C001BBAC8 /* A1TextViewController.swift in Sources */,
 				EF9129AF248CC26300A046D1 /* Color+M2Color.swift in Sources */,
 				EF9129AE248CC26300A046D1 /* RingView.swift in Sources */,
+				EF9129C524A4BC8700A046D1 /* HalfCircleView.swift in Sources */,
 				997892F82473B19F001BBAC8 /* ViewController.swift in Sources */,
 				EF9129A1248CC24B00A046D1 /* A2HeartViewController.swift in Sources */,
 				997892E42473B141001BBAC8 /* AppDelegate.swift in Sources */,
 				997893082473B4C1001BBAC8 /* A1TableViewController.swift in Sources */,
 				EF91299D248CC24B00A046D1 /* A2ChangeViewController.swift in Sources */,
 				EF9129B4248CC26300A046D1 /* ShiningView.swift in Sources */,
+				EF9129C024A4BC7300A046D1 /* A3DoubleViewController.swift in Sources */,
+				EF9129C224A4BC7300A046D1 /* A3WaveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
